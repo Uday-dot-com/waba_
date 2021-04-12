@@ -1,0 +1,47 @@
+[2021-01-27T14:11:28.467] [ERROR] app - ReferenceError: userService is not defined
+    at addBook (E:\Uday\demo back end signup\controllers\bookController.js:9:11)
+    at Layer.handle [as handle_request] (E:\Uday\demo back end signup\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Uday\demo back end signup\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\Uday\demo back end signup\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\Uday\demo back end signup\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Uday\demo back end signup\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:317:13)
+    at E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:275:10)
+    at E:\Uday\demo back end signup\node_modules\body-parser\lib\read.js:130:5
+[2021-01-27T14:12:56.882] [ERROR] app - TypeError: bookService.registerBook is not a function
+    at addBook (E:\Uday\demo back end signup\controllers\bookController.js:9:25)
+    at Layer.handle [as handle_request] (E:\Uday\demo back end signup\node_modules\express\lib\router\layer.js:95:5)
+    at next (E:\Uday\demo back end signup\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (E:\Uday\demo back end signup\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (E:\Uday\demo back end signup\node_modules\express\lib\router\layer.js:95:5)
+    at E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:174:3)
+    at router (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (E:\Uday\demo back end signup\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:317:13)
+    at E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:335:12)
+    at next (E:\Uday\demo back end signup\node_modules\express\lib\router\index.js:275:10)
+    at E:\Uday\demo back end signup\node_modules\body-parser\lib\read.js:130:5
+[2021-01-27T15:14:50.899] [ERROR] app - MESSAGES.MISSING_AUTH_HEADER
+[2021-01-27T15:15:26.695] [ERROR] app - MESSAGES.MISSING_AUTH_HEADER
+[2021-01-27T15:26:09.966] [ERROR] app - MESSAGES.MISSING_AUTH_HEADER
+[2021-01-27T15:38:54.648] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
+[2021-01-27T15:42:17.964] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
+[2021-01-27T16:21:07.666] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
+[2021-01-27T16:37:34.931] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
+[2021-01-27T16:40:27.889] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
+[2021-01-27T16:49:11.947] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
+[2021-01-27T17:15:27.239] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
+[2021-01-27T17:15:30.532] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
+[2021-01-27T17:15:33.561] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
+[2021-01-27T17:15:37.652] [ERROR] app - MESSAGES.INVALID_AUTH_HEADER
