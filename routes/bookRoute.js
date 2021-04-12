@@ -6,7 +6,7 @@ module.exports = (app, router) => {
     router.get('/book/:bookId',bookController.getBook),
     router.get('/books',bookController.getallbooks),
     router.put('/book/update',bookController.updatebook),
-    router.delete('/book/delete/:bookId',bookController.deletebook)
+    
 
     app.use('/api', router)
 
